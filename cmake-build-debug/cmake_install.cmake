@@ -1,4 +1,4 @@
-# Install script for directory: /Users/suyonghua/c++/Cpp-Primer-Plus
+# Install script for directory: /Users/suyonghua/C++/Cpp-Primer-Plus
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

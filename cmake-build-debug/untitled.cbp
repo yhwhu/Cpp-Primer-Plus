@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug"/>
+				<Option working_dir="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug"/>
+				<Option working_dir="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug"/>
+				<Option working_dir="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Cpp-Primer-Plus">
-				<Option output="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Cpp-Primer-Plus" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug"/>
+				<Option output="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Cpp-Primer-Plus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp-Primer-Plus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp-Primer-Plus"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Cpp-Primer-Plus/fast">
-				<Option output="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Cpp-Primer-Plus" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug"/>
+				<Option output="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Cpp-Primer-Plus" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,17 +73,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp-Primer-Plus/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/c++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp-Primer-Plus/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/suyonghua/c++/Cpp-Primer-Plus/main.cpp">
+		<Unit filename="/Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp">
 			<Option target="Cpp-Primer-Plus"/>
 		</Unit>
-		<Unit filename="/Users/suyonghua/c++/Cpp-Primer-Plus/CMakeLists.txt">
+		<Unit filename="/Users/suyonghua/C++/Cpp-Primer-Plus/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
