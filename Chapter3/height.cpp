@@ -2,7 +2,7 @@
 // Created by 粟永华 on 2019-08-09.
 //
 
-// height.cpp - - tranfer m to m and cm
+// height.cpp - - transfer m to m and cm
 
 #include <iostream>
 int main()
