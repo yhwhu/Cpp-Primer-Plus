@@ -5,8 +5,16 @@ using namespace std;
 
 int main()
 {
-    vector<int> vInt = {200, 10, 40, 20, 15, 700};
+    vector<int> vInt = {23, 11, 4, 7, 15, 1};
     int n = vInt.size(), tmp;
+
+    cout << "Before sorting: ";
+    vector<int>::iterator ptr1;
+    for(ptr1 = vInt.begin(); ptr1 < vInt.end(); ptr1++)
+    {
+        cout << *ptr1 << " ";
+    }
+
     for(int i = n; i > 0; i--)
     {
         for(int j = 0; j < i - 1; j++)
@@ -20,10 +28,11 @@ int main()
         }
     }
 //    auto ptr = vInt.begin();
-    vector<int>::iterator ptr;
-    for(ptr = vInt.begin(); ptr < vInt.end(); ptr++)
+    cout << "\nAfter sorting: ";
+    vector<int>::iterator ptr2;
+    for(ptr2 = vInt.begin(); ptr2 < vInt.end(); ptr2++)
     {
-        cout << *ptr << " ";
+        cout << *ptr2 << " ";
     }
 //    for(int l = 0; l < n; l++){
 //        cout << vInt.at(l) << ' ';

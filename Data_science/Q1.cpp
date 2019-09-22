@@ -17,7 +17,7 @@ int main()
         auto t2 = chrono::high_resolution_clock::now();
 
         chrono::duration<double, std::milli> fp_ms = t2 - t1;
-        cout << "The elapsed time to  push_back() " << fp_ms.count()<< " milliseconds.\n";
+        cout << "The elapsed time to push_back() " << fp_ms.count()<< " milliseconds.\n";
     }
 
     cout << endl;
@@ -34,7 +34,7 @@ int main()
         auto t2 = chrono::high_resolution_clock::now();
 
         chrono::duration<double, std::milli> fp_ms = t2 - t1;
-        cout << "The elapsed time to  at() " << fp_ms.count()<< " milliseconds.\n";
+        cout << "The elapsed time to at() " << fp_ms.count()<< " milliseconds.\n";
     }
     return 0;
 }
