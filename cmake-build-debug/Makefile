@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cpp-Primer-Plus
+# Target rules for targets named Cpp_Primer_Plus
 
 # Build rule for target.
-Cpp-Primer-Plus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cpp-Primer-Plus
-.PHONY : Cpp-Primer-Plus
+Cpp_Primer_Plus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Primer_Plus
+.PHONY : Cpp_Primer_Plus
 
 # fast build rule for target.
-Cpp-Primer-Plus/fast:
-	$(MAKE) -f CMakeFiles/Cpp-Primer-Plus.dir/build.make CMakeFiles/Cpp-Primer-Plus.dir/build
-.PHONY : Cpp-Primer-Plus/fast
+Cpp_Primer_Plus/fast:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/build
+.PHONY : Cpp_Primer_Plus/fast
 
 main.o: main.cpp.o
 
@@ -129,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cpp-Primer-Plus.dir/build.make CMakeFiles/Cpp-Primer-Plus.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -138,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cpp-Primer-Plus.dir/build.make CMakeFiles/Cpp-Primer-Plus.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -147,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cpp-Primer-Plus.dir/build.make CMakeFiles/Cpp-Primer-Plus.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Cpp-Primer-Plus"
+	@echo "... Cpp_Primer_Plus"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
