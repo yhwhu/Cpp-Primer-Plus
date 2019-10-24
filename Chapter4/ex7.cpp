@@ -5,13 +5,13 @@ using namespace std;
 const int l = 30;
 
 struct Pie{
-    char company[l];
-    float length;
-    float weight;
+     char company[l];
+     float length;
+     float weight;
 };
 
 int main(){
-
+    
     Pie pie;
 
     cout << "Company: ";
