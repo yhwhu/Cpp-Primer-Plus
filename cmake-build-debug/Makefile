@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named hw
+
+# Build rule for target.
+hw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 hw
+.PHONY : hw
+
+# fast build rule for target.
+hw/fast:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/build
+.PHONY : hw/fast
+
+#=============================================================================
 # Target rules for targets named Cpp_test
 
 # Build rule for target.
@@ -135,6 +148,60 @@ Cpp_Primer_Plus: cmake_check_build_system
 Cpp_Primer_Plus/fast:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/build
 .PHONY : Cpp_Primer_Plus/fast
+
+hw6/main.o: hw6/main.cpp.o
+
+.PHONY : hw6/main.o
+
+# target to build an object file
+hw6/main.cpp.o:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/main.cpp.o
+.PHONY : hw6/main.cpp.o
+
+hw6/main.i: hw6/main.cpp.i
+
+.PHONY : hw6/main.i
+
+# target to preprocess a source file
+hw6/main.cpp.i:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/main.cpp.i
+.PHONY : hw6/main.cpp.i
+
+hw6/main.s: hw6/main.cpp.s
+
+.PHONY : hw6/main.s
+
+# target to generate assembly for a file
+hw6/main.cpp.s:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/main.cpp.s
+.PHONY : hw6/main.cpp.s
+
+hw6/matrix.o: hw6/matrix.cpp.o
+
+.PHONY : hw6/matrix.o
+
+# target to build an object file
+hw6/matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/matrix.cpp.o
+.PHONY : hw6/matrix.cpp.o
+
+hw6/matrix.i: hw6/matrix.cpp.i
+
+.PHONY : hw6/matrix.i
+
+# target to preprocess a source file
+hw6/matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/matrix.cpp.i
+.PHONY : hw6/matrix.cpp.i
+
+hw6/matrix.s: hw6/matrix.cpp.s
+
+.PHONY : hw6/matrix.s
+
+# target to generate assembly for a file
+hw6/matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/matrix.cpp.s
+.PHONY : hw6/matrix.cpp.s
 
 main.o: main.cpp.o
 
@@ -198,8 +265,15 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... hw"
 	@echo "... Cpp_test"
 	@echo "... Cpp_Primer_Plus"
+	@echo "... hw6/main.o"
+	@echo "... hw6/main.i"
+	@echo "... hw6/main.s"
+	@echo "... hw6/matrix.o"
+	@echo "... hw6/matrix.i"
+	@echo "... hw6/matrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

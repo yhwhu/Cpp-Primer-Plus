@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
+/Users/suyonghua/C++/Cpp-Primer-Plus/hw6/main.cpp
+matrix.hpp
+/Users/suyonghua/C++/Cpp-Primer-Plus/hw6/matrix.hpp
+
+/Users/suyonghua/C++/Cpp-Primer-Plus/hw6/matrix.hpp
 vector
 -
 iostream

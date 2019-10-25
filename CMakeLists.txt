@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(Cpp_Primer_Plus main.cpp)
 add_executable(Cpp_test test.cpp)
+add_executable(hw hw6/main.cpp hw6/matrix.cpp)
