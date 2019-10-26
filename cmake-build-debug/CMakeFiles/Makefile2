@@ -54,6 +54,8 @@ CMAKE_BINARY_DIR = /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
 
 # The main recursive "all" target.
 all: CMakeFiles/hw.dir/all
+all: CMakeFiles/ch10_1.dir/all
+all: CMakeFiles/ch10_2.dir/all
 all: CMakeFiles/Cpp_test.dir/all
 all: CMakeFiles/Cpp_Primer_Plus.dir/all
 
@@ -61,6 +63,8 @@ all: CMakeFiles/Cpp_Primer_Plus.dir/all
 
 # The main recursive "clean" target.
 clean: CMakeFiles/hw.dir/clean
+clean: CMakeFiles/ch10_1.dir/clean
+clean: CMakeFiles/ch10_2.dir/clean
 clean: CMakeFiles/Cpp_test.dir/clean
 clean: CMakeFiles/Cpp_Primer_Plus.dir/clean
 
@@ -78,7 +82,7 @@ preinstall:
 CMakeFiles/hw.dir/all:
 	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/depend
 	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target hw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=11,12,13 "Built target hw"
 .PHONY : CMakeFiles/hw.dir/all
 
 # Build rule for subdir invocation for target.
@@ -97,6 +101,60 @@ hw: CMakeFiles/hw.dir/rule
 CMakeFiles/hw.dir/clean:
 	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/clean
 .PHONY : CMakeFiles/hw.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch10_1.dir
+
+# All Build rule for target.
+CMakeFiles/ch10_1.dir/all:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/depend
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=5,6,7 "Built target ch10_1"
+.PHONY : CMakeFiles/ch10_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch10_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch10_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ch10_1.dir/rule
+
+# Convenience name for target.
+ch10_1: CMakeFiles/ch10_1.dir/rule
+
+.PHONY : ch10_1
+
+# clean rule for target.
+CMakeFiles/ch10_1.dir/clean:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/clean
+.PHONY : CMakeFiles/ch10_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch10_2.dir
+
+# All Build rule for target.
+CMakeFiles/ch10_2.dir/all:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/depend
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=8,9,10 "Built target ch10_2"
+.PHONY : CMakeFiles/ch10_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch10_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ch10_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ch10_2.dir/rule
+
+# Convenience name for target.
+ch10_2: CMakeFiles/ch10_2.dir/rule
+
+.PHONY : ch10_2
+
+# clean rule for target.
+CMakeFiles/ch10_2.dir/clean:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/clean
+.PHONY : CMakeFiles/ch10_2.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Cpp_test.dir

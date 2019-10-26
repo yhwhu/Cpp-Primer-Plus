@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
-vector
--
 iostream
+-
+cstring
 -
 

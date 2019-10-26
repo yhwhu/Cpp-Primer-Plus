@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -124,6 +124,32 @@ hw/fast:
 .PHONY : hw/fast
 
 #=============================================================================
+# Target rules for targets named ch10_1
+
+# Build rule for target.
+ch10_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch10_1
+.PHONY : ch10_1
+
+# fast build rule for target.
+ch10_1/fast:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/build
+.PHONY : ch10_1/fast
+
+#=============================================================================
+# Target rules for targets named ch10_2
+
+# Build rule for target.
+ch10_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch10_2
+.PHONY : ch10_2
+
+# fast build rule for target.
+ch10_2/fast:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/build
+.PHONY : ch10_2/fast
+
+#=============================================================================
 # Target rules for targets named Cpp_test
 
 # Build rule for target.
@@ -148,6 +174,114 @@ Cpp_Primer_Plus: cmake_check_build_system
 Cpp_Primer_Plus/fast:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/build
 .PHONY : Cpp_Primer_Plus/fast
+
+Chapter10/bank.o: Chapter10/bank.cpp.o
+
+.PHONY : Chapter10/bank.o
+
+# target to build an object file
+Chapter10/bank.cpp.o:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/Chapter10/bank.cpp.o
+.PHONY : Chapter10/bank.cpp.o
+
+Chapter10/bank.i: Chapter10/bank.cpp.i
+
+.PHONY : Chapter10/bank.i
+
+# target to preprocess a source file
+Chapter10/bank.cpp.i:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/Chapter10/bank.cpp.i
+.PHONY : Chapter10/bank.cpp.i
+
+Chapter10/bank.s: Chapter10/bank.cpp.s
+
+.PHONY : Chapter10/bank.s
+
+# target to generate assembly for a file
+Chapter10/bank.cpp.s:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/Chapter10/bank.cpp.s
+.PHONY : Chapter10/bank.cpp.s
+
+Chapter10/bank_main.o: Chapter10/bank_main.cpp.o
+
+.PHONY : Chapter10/bank_main.o
+
+# target to build an object file
+Chapter10/bank_main.cpp.o:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/Chapter10/bank_main.cpp.o
+.PHONY : Chapter10/bank_main.cpp.o
+
+Chapter10/bank_main.i: Chapter10/bank_main.cpp.i
+
+.PHONY : Chapter10/bank_main.i
+
+# target to preprocess a source file
+Chapter10/bank_main.cpp.i:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/Chapter10/bank_main.cpp.i
+.PHONY : Chapter10/bank_main.cpp.i
+
+Chapter10/bank_main.s: Chapter10/bank_main.cpp.s
+
+.PHONY : Chapter10/bank_main.s
+
+# target to generate assembly for a file
+Chapter10/bank_main.cpp.s:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/Chapter10/bank_main.cpp.s
+.PHONY : Chapter10/bank_main.cpp.s
+
+Chapter10/person_main.o: Chapter10/person_main.cpp.o
+
+.PHONY : Chapter10/person_main.o
+
+# target to build an object file
+Chapter10/person_main.cpp.o:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.o
+.PHONY : Chapter10/person_main.cpp.o
+
+Chapter10/person_main.i: Chapter10/person_main.cpp.i
+
+.PHONY : Chapter10/person_main.i
+
+# target to preprocess a source file
+Chapter10/person_main.cpp.i:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.i
+.PHONY : Chapter10/person_main.cpp.i
+
+Chapter10/person_main.s: Chapter10/person_main.cpp.s
+
+.PHONY : Chapter10/person_main.s
+
+# target to generate assembly for a file
+Chapter10/person_main.cpp.s:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.s
+.PHONY : Chapter10/person_main.cpp.s
+
+chapter10/person.o: chapter10/person.cpp.o
+
+.PHONY : chapter10/person.o
+
+# target to build an object file
+chapter10/person.cpp.o:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/chapter10/person.cpp.o
+.PHONY : chapter10/person.cpp.o
+
+chapter10/person.i: chapter10/person.cpp.i
+
+.PHONY : chapter10/person.i
+
+# target to preprocess a source file
+chapter10/person.cpp.i:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/chapter10/person.cpp.i
+.PHONY : chapter10/person.cpp.i
+
+chapter10/person.s: chapter10/person.cpp.s
+
+.PHONY : chapter10/person.s
+
+# target to generate assembly for a file
+chapter10/person.cpp.s:
+	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/chapter10/person.cpp.s
+.PHONY : chapter10/person.cpp.s
 
 hw6/main.o: hw6/main.cpp.o
 
@@ -263,11 +397,25 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... hw"
+	@echo "... ch10_1"
+	@echo "... ch10_2"
+	@echo "... rebuild_cache"
 	@echo "... Cpp_test"
 	@echo "... Cpp_Primer_Plus"
+	@echo "... Chapter10/bank.o"
+	@echo "... Chapter10/bank.i"
+	@echo "... Chapter10/bank.s"
+	@echo "... Chapter10/bank_main.o"
+	@echo "... Chapter10/bank_main.i"
+	@echo "... Chapter10/bank_main.s"
+	@echo "... Chapter10/person_main.o"
+	@echo "... Chapter10/person_main.i"
+	@echo "... Chapter10/person_main.s"
+	@echo "... chapter10/person.o"
+	@echo "... chapter10/person.i"
+	@echo "... chapter10/person.s"
 	@echo "... hw6/main.o"
 	@echo "... hw6/main.i"
 	@echo "... hw6/main.s"
