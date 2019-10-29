@@ -1,7 +1,5 @@
-/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/hw.dir
-/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_1.dir
-/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_2.dir
 /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/Cpp_test.dir
+/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/Cpp_Primer_Plus.dir
+/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_2.dir
+/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_1.dir

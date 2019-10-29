@@ -1,32 +1,15 @@
 #include <iostream>
-#include <cstring>
+#include <armadillo>
 
-class Plorg{
-private:
-    char name_[19]{};
-    int CI_;
+using namespace std;
+using namespace arma;
 
-public:
-    Plorg(const char *name = "Plorga", int CI = 50);
-    void revise(int c);
-    void show() const ;
-};
+int main()
+{
+    mat A = randu<mat>(4,5);
+    mat B = randu<mat>(4,5);
 
-Plorg::Plorg(const char *name, int CI) {
-    strcpy(name_, name);
-    CI_ = CI;
-}
+    cout << A*B.t() << endl;
 
-void Plorg::revise(int c) {
-    CI_ = c;
-}
-void Plorg::show() const {
-    std::cout << "name: " << name_ << ", CI: " << CI_ << std::endl;
-}
-
-int main(){
-    Plorg p("apple");
-    p.show();
-    p.revise(100);
-    p.show();
+    return 0;
 }

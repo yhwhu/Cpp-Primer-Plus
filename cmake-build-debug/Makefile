@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,30 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw
+# Target rules for targets named Cpp_Primer_Plus
 
 # Build rule for target.
-hw: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hw
-.PHONY : hw
+Cpp_Primer_Plus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Primer_Plus
+.PHONY : Cpp_Primer_Plus
 
 # fast build rule for target.
-hw/fast:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/build
-.PHONY : hw/fast
-
-#=============================================================================
-# Target rules for targets named ch10_1
-
-# Build rule for target.
-ch10_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ch10_1
-.PHONY : ch10_1
-
-# fast build rule for target.
-ch10_1/fast:
-	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/build
-.PHONY : ch10_1/fast
+Cpp_Primer_Plus/fast:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/build
+.PHONY : Cpp_Primer_Plus/fast
 
 #=============================================================================
 # Target rules for targets named ch10_2
@@ -150,30 +137,17 @@ ch10_2/fast:
 .PHONY : ch10_2/fast
 
 #=============================================================================
-# Target rules for targets named Cpp_test
+# Target rules for targets named ch10_1
 
 # Build rule for target.
-Cpp_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cpp_test
-.PHONY : Cpp_test
+ch10_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ch10_1
+.PHONY : ch10_1
 
 # fast build rule for target.
-Cpp_test/fast:
-	$(MAKE) -f CMakeFiles/Cpp_test.dir/build.make CMakeFiles/Cpp_test.dir/build
-.PHONY : Cpp_test/fast
-
-#=============================================================================
-# Target rules for targets named Cpp_Primer_Plus
-
-# Build rule for target.
-Cpp_Primer_Plus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cpp_Primer_Plus
-.PHONY : Cpp_Primer_Plus
-
-# fast build rule for target.
-Cpp_Primer_Plus/fast:
-	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/build
-.PHONY : Cpp_Primer_Plus/fast
+ch10_1/fast:
+	$(MAKE) -f CMakeFiles/ch10_1.dir/build.make CMakeFiles/ch10_1.dir/build
+.PHONY : ch10_1/fast
 
 Chapter10/bank.o: Chapter10/bank.cpp.o
 
@@ -283,60 +257,6 @@ chapter10/person.cpp.s:
 	$(MAKE) -f CMakeFiles/ch10_2.dir/build.make CMakeFiles/ch10_2.dir/chapter10/person.cpp.s
 .PHONY : chapter10/person.cpp.s
 
-hw6/main.o: hw6/main.cpp.o
-
-.PHONY : hw6/main.o
-
-# target to build an object file
-hw6/main.cpp.o:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/main.cpp.o
-.PHONY : hw6/main.cpp.o
-
-hw6/main.i: hw6/main.cpp.i
-
-.PHONY : hw6/main.i
-
-# target to preprocess a source file
-hw6/main.cpp.i:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/main.cpp.i
-.PHONY : hw6/main.cpp.i
-
-hw6/main.s: hw6/main.cpp.s
-
-.PHONY : hw6/main.s
-
-# target to generate assembly for a file
-hw6/main.cpp.s:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/main.cpp.s
-.PHONY : hw6/main.cpp.s
-
-hw6/matrix.o: hw6/matrix.cpp.o
-
-.PHONY : hw6/matrix.o
-
-# target to build an object file
-hw6/matrix.cpp.o:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/matrix.cpp.o
-.PHONY : hw6/matrix.cpp.o
-
-hw6/matrix.i: hw6/matrix.cpp.i
-
-.PHONY : hw6/matrix.i
-
-# target to preprocess a source file
-hw6/matrix.cpp.i:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/matrix.cpp.i
-.PHONY : hw6/matrix.cpp.i
-
-hw6/matrix.s: hw6/matrix.cpp.s
-
-.PHONY : hw6/matrix.s
-
-# target to generate assembly for a file
-hw6/matrix.cpp.s:
-	$(MAKE) -f CMakeFiles/hw.dir/build.make CMakeFiles/hw.dir/hw6/matrix.cpp.s
-.PHONY : hw6/matrix.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -364,46 +284,17 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Plus.dir/build.make CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/Cpp_test.dir/build.make CMakeFiles/Cpp_test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/Cpp_test.dir/build.make CMakeFiles/Cpp_test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/Cpp_test.dir/build.make CMakeFiles/Cpp_test.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... hw"
-	@echo "... ch10_1"
-	@echo "... ch10_2"
 	@echo "... rebuild_cache"
-	@echo "... Cpp_test"
+	@echo "... edit_cache"
 	@echo "... Cpp_Primer_Plus"
+	@echo "... ch10_2"
+	@echo "... ch10_1"
 	@echo "... Chapter10/bank.o"
 	@echo "... Chapter10/bank.i"
 	@echo "... Chapter10/bank.s"
@@ -416,18 +307,9 @@ help:
 	@echo "... chapter10/person.o"
 	@echo "... chapter10/person.i"
 	@echo "... chapter10/person.s"
-	@echo "... hw6/main.o"
-	@echo "... hw6/main.i"
-	@echo "... hw6/main.s"
-	@echo "... hw6/matrix.o"
-	@echo "... hw6/matrix.i"
-	@echo "... hw6/matrix.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 

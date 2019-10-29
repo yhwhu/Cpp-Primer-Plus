@@ -4,6 +4,7 @@
 CMakeFiles/hw.dir/hw6/main.cpp.o: ../hw6/main.cpp
 CMakeFiles/hw.dir/hw6/main.cpp.o: ../hw6/matrix.hpp
 
+
 CMakeFiles/hw.dir/hw6/matrix.cpp.o: ../hw6/matrix.cpp
 CMakeFiles/hw.dir/hw6/matrix.cpp.o: ../hw6/matrix.hpp
 

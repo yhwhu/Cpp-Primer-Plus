@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+AR:FILEPATH=/usr/local/lib/libarmadillo.dylib
+
+//Path to a library.
+Ar:FILEPATH=/usr/local/lib/libarmadillo.dylib
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ar
 
@@ -218,8 +224,62 @@ Cpp_Primer_Plus_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-bui
 //Value Computed by CMake
 Cpp_Primer_Plus_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
 
+//Value Computed by CMake
+Cpp__BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+Cpp__SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
+//Value Computed by CMake
+Cpp_test_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+Cpp_test_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
 //Path to a program.
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
+
+//Path to a library.
+ar:FILEPATH=/usr/local/lib/libarmadillo.dylib
+
+//Path to a library.
+archi:FILEPATH=/usr/lib/libarchive.dylib
+
+//Value Computed by CMake
+archive_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+archive_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
+//Value Computed by CMake
+archive_demo_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+archive_demo_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
+//Value Computed by CMake
+ch10_1_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+ch10_1_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
+//Value Computed by CMake
+ch10_2_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+ch10_2_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
+//Value Computed by CMake
+hw6_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+hw6_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
+//Value Computed by CMake
+hw_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+hw_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
 
 
 ########################
