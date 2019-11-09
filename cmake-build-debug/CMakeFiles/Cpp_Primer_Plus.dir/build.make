@@ -60,15 +60,15 @@ include CMakeFiles/Cpp_Primer_Plus.dir/flags.make
 CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o: CMakeFiles/Cpp_Primer_Plus.dir/flags.make
 CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o -c /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
+	/usr/local/Cellar/gcc/9.2.0/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o -c /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
 
 CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp > CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.i
+	/usr/local/Cellar/gcc/9.2.0/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp > CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.i
 
 CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp -o CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.s
+	/usr/local/Cellar/gcc/9.2.0/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp -o CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.s
 
 # Object files for target Cpp_Primer_Plus
 Cpp_Primer_Plus_OBJECTS = \

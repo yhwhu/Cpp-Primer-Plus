@@ -14,5 +14,3 @@ link_directories(/usr/local/lib)
 link_libraries(armadillo)
 add_executable(Cpp_Primer_Plus main.cpp)
 target_link_libraries(Cpp_Primer_Plus armadillo)
-
-

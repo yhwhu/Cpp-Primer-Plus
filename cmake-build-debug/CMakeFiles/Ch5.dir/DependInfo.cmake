@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/bank.cpp" "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_1.dir/Chapter10/bank.cpp.o"
-  "/Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/bank_main.cpp" "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_1.dir/Chapter10/bank_main.cpp.o"
+  "/Users/suyonghua/C++/Cpp-Primer-Plus/Chapter5/ex1.cpp" "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/Ch5.dir/Chapter5/ex1.cpp.o"
+  "/Users/suyonghua/C++/Cpp-Primer-Plus/Chapter5/ex3.cpp" "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/Ch5.dir/Chapter5/ex3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
