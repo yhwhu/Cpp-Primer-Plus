@@ -45,13 +45,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp_Primer_Plus"/>
@@ -68,13 +66,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cpp_Primer_Plus/fast"/>
@@ -91,13 +87,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch10_2"/>
@@ -114,13 +108,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch10_2/fast"/>
@@ -137,13 +129,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch10_1"/>
@@ -160,13 +150,11 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/x86_64-apple-darwin18"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/../../../../../../include/c++/9.2.0/backward"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include"/>
-					<Add directory="/usr/local/Cellar/gcc/9.2.0/lib/gcc/9/gcc/x86_64-apple-darwin18/9.2.0/include-fixed"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/Makefile&quot;  VERBOSE=1 ch10_1/fast"/>

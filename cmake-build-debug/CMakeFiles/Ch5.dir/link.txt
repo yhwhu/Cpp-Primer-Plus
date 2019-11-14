@@ -1,1 +1,0 @@
-/usr/local/Cellar/gcc/9.2.0/bin/g++-9  -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Ch5.dir/Chapter5/ex1.cpp.o CMakeFiles/Ch5.dir/Chapter5/ex3.cpp.o  -o Ch5  -L/usr/local/lib -Wl,-rpath,/usr/local/lib -larmadillo 

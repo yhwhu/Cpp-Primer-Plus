@@ -60,28 +60,28 @@ include CMakeFiles/ch10_2.dir/flags.make
 CMakeFiles/ch10_2.dir/chapter10/person.cpp.o: CMakeFiles/ch10_2.dir/flags.make
 CMakeFiles/ch10_2.dir/chapter10/person.cpp.o: ../chapter10/person.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ch10_2.dir/chapter10/person.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch10_2.dir/chapter10/person.cpp.o -c /Users/suyonghua/C++/Cpp-Primer-Plus/chapter10/person.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch10_2.dir/chapter10/person.cpp.o -c /Users/suyonghua/C++/Cpp-Primer-Plus/chapter10/person.cpp
 
 CMakeFiles/ch10_2.dir/chapter10/person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch10_2.dir/chapter10/person.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/Cpp-Primer-Plus/chapter10/person.cpp > CMakeFiles/ch10_2.dir/chapter10/person.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/Cpp-Primer-Plus/chapter10/person.cpp > CMakeFiles/ch10_2.dir/chapter10/person.cpp.i
 
 CMakeFiles/ch10_2.dir/chapter10/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch10_2.dir/chapter10/person.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/Cpp-Primer-Plus/chapter10/person.cpp -o CMakeFiles/ch10_2.dir/chapter10/person.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/Cpp-Primer-Plus/chapter10/person.cpp -o CMakeFiles/ch10_2.dir/chapter10/person.cpp.s
 
 CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.o: CMakeFiles/ch10_2.dir/flags.make
 CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.o: ../Chapter10/person_main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.o"
-	/usr/local/Cellar/gcc/9.2.0/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.o -c /Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/person_main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.o -c /Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/person_main.cpp
 
 CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.i"
-	/usr/local/Cellar/gcc/9.2.0/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/person_main.cpp > CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/person_main.cpp > CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.i
 
 CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.s"
-	/usr/local/Cellar/gcc/9.2.0/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/person_main.cpp -o CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/person_main.cpp -o CMakeFiles/ch10_2.dir/Chapter10/person_main.cpp.s
 
 # Object files for target ch10_2
 ch10_2_OBJECTS = \

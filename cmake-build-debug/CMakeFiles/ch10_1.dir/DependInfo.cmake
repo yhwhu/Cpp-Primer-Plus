@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/bank.cpp" "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_1.dir/Chapter10/bank.cpp.o"
   "/Users/suyonghua/C++/Cpp-Primer-Plus/Chapter10/bank_main.cpp" "/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug/CMakeFiles/ch10_1.dir/Chapter10/bank_main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
