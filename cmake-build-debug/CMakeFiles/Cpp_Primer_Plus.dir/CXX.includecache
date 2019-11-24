@@ -7,10 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
-iostream
--
-string
--
-cstring
--
+sale.h
+/Users/suyonghua/C++/Cpp-Primer-Plus/sale.h
+
+/Users/suyonghua/C++/Cpp-Primer-Plus/sale.h
 
