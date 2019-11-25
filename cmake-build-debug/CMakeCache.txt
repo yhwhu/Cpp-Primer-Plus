@@ -233,6 +233,12 @@ ch10_2_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
 //Value Computed by CMake
 ch10_2_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
 
+//Value Computed by CMake
+test_BINARY_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus/cmake-build-debug
+
+//Value Computed by CMake
+test_SOURCE_DIR:STATIC=/Users/suyonghua/C++/Cpp-Primer-Plus
+
 
 ########################
 # INTERNAL cache entries

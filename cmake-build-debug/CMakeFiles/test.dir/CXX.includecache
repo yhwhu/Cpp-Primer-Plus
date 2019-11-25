@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/suyonghua/C++/Cpp-Primer-Plus/main2.cpp
+matrix.hpp
+/Users/suyonghua/C++/Cpp-Primer-Plus/matrix.hpp
+
+/Users/suyonghua/C++/Cpp-Primer-Plus/matrix.cpp
+matrix.hpp
+/Users/suyonghua/C++/Cpp-Primer-Plus/matrix.hpp
+
+/Users/suyonghua/C++/Cpp-Primer-Plus/matrix.hpp
+vector
+-
+iostream
+-
+

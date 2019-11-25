@@ -17,4 +17,4 @@ add_executable(ch10_2 chapter10/person.cpp Chapter10/person_main.cpp)
 
 
 project(Cpp_Primer_Plus)
-add_executable(Cpp_Primer_Plus main.cpp)
+add_executable(Cpp_Primer_Plus main.cpp complex0.h complex0.cpp)

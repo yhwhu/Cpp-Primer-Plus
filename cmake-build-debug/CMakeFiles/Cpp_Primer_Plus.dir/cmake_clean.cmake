@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Cpp_Primer_Plus.dir/complex0.cpp.o"
   "CMakeFiles/Cpp_Primer_Plus.dir/main.cpp.o"
   "Cpp_Primer_Plus"
   "Cpp_Primer_Plus.pdb"

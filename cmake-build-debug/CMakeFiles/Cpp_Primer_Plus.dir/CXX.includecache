@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
-sale.h
-/Users/suyonghua/C++/Cpp-Primer-Plus/sale.h
+/Users/suyonghua/C++/Cpp-Primer-Plus/complex0.h
+iostream
+-
 
-/Users/suyonghua/C++/Cpp-Primer-Plus/sale.h
+/Users/suyonghua/C++/Cpp-Primer-Plus/main.cpp
+iostream
+-
+complex0.h
+/Users/suyonghua/C++/Cpp-Primer-Plus/complex0.h
 
